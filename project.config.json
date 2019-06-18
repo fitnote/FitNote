@@ -30,13 +30,53 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 4,
+			"list": [
+				{
+					"id": -1,
+					"name": "进入首页",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "开启抛瓦",
+					"pathName": "pages/power/power",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "Fit-训练项目列表",
+					"pathName": "pages/fit/fit",
+					"query": "fit_item=测试",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "Fit-训练项目计数",
+					"pathName": "pages/counter/counter",
+					"query": "counter_item=老汉推车",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "Fit-增加训练组数",
+					"pathName": "pages/addCounter/addCounter",
+					"query": "counter_num=7&heavy=15&times=10",
+					"scene": null
+				}
+			]
 		}
 	}
 }

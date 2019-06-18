@@ -1,0 +1,29 @@
+<!--pages/fit/fit.wxml-->
+
+<!-- 
+  todo:
+
+  感叹号数量代表重要程度
+
+  -- fit-item --
+  1. icon 选择
+  2. 增加新项目
+
+  -->
+
+<view class="container-full-screen">
+  <view class="title">{{fit_item}}</view>
+  <scroll-view scroll-y class="scroll-container">
+    <view class="fit-item-list">
+      <view wx:for="{{counter_item}}" wx:key="{{index}}" id="{{index}}" class="fit-item" bindtap="goFitItemCounter">
+        <image class="fit-item-icon" src="{{item.item_icon}}"></image>
+        <text class="fit-item-text">{{item.item_name}}</text>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="confirm_bar ">
+    <view class="yes " bindtap="finish">完成</view>
+    <view class="no " bindtap="abandon">放弃</view>
+  </view>
+  <!-- <view bindtap="goNext" bindlongpress="goBack" class="navigate_test_go">Go!</view> -->
+</view>

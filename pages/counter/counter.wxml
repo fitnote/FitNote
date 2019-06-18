@@ -1,0 +1,29 @@
+<!--pages/counter/counter.wxml-->
+<view class="container-full-screen">
+  <div class="title">{{counter_item}}</div>
+  <scroll-view scroll-y class="scroll-container">
+    <view class="counter-item-list">
+
+      <view wx:for="{{counter_list}}" wx:key="{{index}}" id="{{index}}" class="counter-item">
+        <view class="counter-item-num">{{item.id}}</view>
+        <view class="counter-item-text">
+          <text class="counter-item-text_times">{{item.times}} 次</text>
+          <text class="counter-item-text_heavy">{{item.heavy}} kg</text>
+        </view>
+      </view>
+
+      <view bindtap="oneMore" class="counter-item">
+        <view class="counter-item-num">+</view>
+        <view class="counter-item-text">
+          <text class="counter-item-text_times">再来一组</text>
+        </view>
+
+      </view>
+    </view>
+  </scroll-view>
+  <view class="confirm_bar ">
+    <view class="yes " bindtap="finish">完成</view>
+    <view class="no " bindtap="abandon">放弃</view>
+  </view>
+  <!-- <view bindtap="goNext" bindlongpress="goBack" class="navigate_test_go">Go!</view> -->
+</view>

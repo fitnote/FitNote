@@ -8,3 +8,44 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.navigate_test_go {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: rgba(255, 120, 0, 1);
+  margin: 5vw;
+  color: white;
+  box-shadow: 0rpx 0rpx 36rpx 0px rgba(255, 120, 0, 0.5);
+  font-size: 14pt;
+  font-style: oblique;
+}
+
+.navigate_test_back {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: red;
+  margin: 5vw;
+  color: white;
+}
