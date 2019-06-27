@@ -39,7 +39,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 4,
+			"current": 5,
 			"list": [
 				{
 					"id": -1,
@@ -74,6 +74,13 @@
 					"name": "Fit-增加训练组数",
 					"pathName": "pages/addCounter/addCounter",
 					"query": "counter_num=7&heavy=15&times=10",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "个人",
+					"pathName": "pages/me/me",
+					"query": "",
 					"scene": null
 				}
 			]
