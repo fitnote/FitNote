@@ -76,5 +76,11 @@ Page({
     wx.navigateTo({
       url: '../power/power?fit_item=腿'
     })
+  },
+
+  goMe: function (event) {
+    wx.reLaunch({
+      url: '../me/me'
+    })
   }
 })
