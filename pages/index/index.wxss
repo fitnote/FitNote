@@ -12,6 +12,33 @@
   flex-direction: column;
 }
 
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 48rpx;
+  padding-bottom: 16rpx;
+  font-size: 40pt;
+  line-height: 40pt;
+  padding-left: 5vw;
+  z-index: 999;
+}
+
+.title::before {
+  content: '';
+  position: absolute;
+  top: -32rpx;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: calc(40pt + 48rpx + 16rpx + 32rpx);
+  width: 100vw;
+  filter: blur(16rpx);
+  background: hsla(0, 0%, 100%, 1);
+  z-index: -1;
+}
+
 .scroll-container {
   flex: 1;
   display: flex;
