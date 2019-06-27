@@ -1,0 +1,17 @@
+<!--pages/getCard.wxml-->
+<view class="container">
+
+  <view class="cardContainer"  wx:for="{{ rulesData }}" data-index="{{rulesData}}" bindtap="getCard" wx:key="unique" wx:if="{{calorie > 20}}">
+    <view class="content"  >
+      <image class="logo" src="{{item.ticketinfo.logoUrl}}"></image>
+      <text class="logoName">{{ item.ticketinfo.brandName}}</text>
+      <text class="cardName">{{ item.ticketinfo.title }}</text>
+      <text class="time" wx:if="{{ item.ticketinfo.dateType == 'DATE_TYPE_FIX _TIME_RANGE' }}">{{ item.ticketinfo.beginTime }}至{{ item.ticketinfo.endTime }}</text>
+      <text class="time" wx:if="{{ item.ticketinfo.dateType == 'date_type_fix_term' }}">领取后{{item.ticketinfo.fixedTerm}}天内有效</text>
+      <text class="getCard" wx:if="{{ extraData == true }}">立即领取</text>
+      <text class="getCard" wx:if="{{ extraData == false }}">立即兑换</text>
+    </view>
+    <image class="background" src="../../img/card.png"></image>  
+ </view>
+
+</view>
