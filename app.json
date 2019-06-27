@@ -4,7 +4,8 @@
     "pages/power/power",
     "pages/fit/fit",
     "pages/counter/counter",
-    "pages/addCounter/addCounter"
+    "pages/addCounter/addCounter",
+    "pages/me/me"
   ],
   "window": {
     "backgroundTextStyle": "light",
