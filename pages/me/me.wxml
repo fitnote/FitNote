@@ -13,7 +13,7 @@
         <image src='https://img.icons8.com/color/50/000000/scissor-lift.png'></image>
         <text>身高/cm</text>
       </view>
-      <view class='user-fit-info-item__num'>178</view>
+      <input class='user-fit-info-item__num' placeholder="178" />
     </view>
 
     <view class='user-fit-info-item'>
@@ -21,7 +21,7 @@
         <image src='https://img.icons8.com/color/48/000000/industrial-scales.png'></image>
         <text>体重/kg</text>
       </view>
-      <view class='user-fit-info-item__num'>55</view>
+      <input class='user-fit-info-item__num' placeholder="55" />
     </view>
 
     <view class='user-fit-info-item'>
@@ -29,7 +29,7 @@
         <image src='https://img.icons8.com/cotton/64/000000/percentage.png'></image>
         <text>体脂比/%</text>
       </view>
-      <view class='user-fit-info-item__num'>9.6</view>
+      <input class='user-fit-info-item__num' placeholder="9.6" />
     </view>
 
     <view class='user-fit-info-item'>
@@ -37,9 +37,11 @@
         <image src='https://img.icons8.com/color/48/000000/man-drinking-water.png'></image>
         <text>基础代谢率</text>
       </view>
-      <view class='user-fit-info-item__num'>1344</view>
+      <input class='user-fit-info-item__num' placeholder="1344" />
     </view>
   </view>
+
+  <view class='recommend' bindtap='goRecommend'>专属定制 - 你的个人健身计划</view>
   <!-- </scroll-view> -->
 
   <view class='navigate_bar'>
@@ -47,7 +49,7 @@
       <image src='https://img.icons8.com/color/48/000000/overview-pages-4.png'></image>
       <text>首页</text>
     </view>
-    <view class='navigate_to_power'>
+    <view class='navigate_to_power' bindtap='goPower'>
       <image src='https://img.icons8.com/color/48/000000/skateboard-truck.png'></image>
       <text>抛瓦!</text>
     </view>

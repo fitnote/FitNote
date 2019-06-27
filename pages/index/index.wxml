@@ -24,18 +24,18 @@
     
     <image class="main-view" src="{{head}}">head</image>
     <view class="other-view">
-      <view class="fit-item">
+      <view class="fit-item" bindtap='goHistory'>
         <image class="fit-item-icon" src="{{icon_1}}"></image>
         <view class="fit-item-info">
           <text class="fit-item-text">胸</text>
-          <text class="fit-item-time">15 天前</text>
+          <text class="fit-item-time">刚刚</text>
         </view>
       </view>
       <view class="fit-item">
         <image class="fit-item-icon" src="{{icon_2}}"></image>
         <view class="fit-item-info">
           <text class="fit-item-text">腿</text>
-          <text class="fit-item-time">刚刚</text>
+          <text class="fit-item-time">15 天前</text>
         </view>
       </view>
       <view class="fit-item">

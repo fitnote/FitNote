@@ -85,7 +85,6 @@
   padding-top: 8px;
   padding-bottom: 8px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-
 }
 
 .user-fit-info-item:first-child {
@@ -119,4 +118,19 @@
   font-size: 14pt;
   font-weight: bolder;
   color: #8c8c8c;
+  width: 60px;
+  text-align: end;
+}
+
+.recommend {
+  /* background-color: yellow; */
+  width: 90vw;
+  margin: 0 auto;
+  height: 20vw;
+  border-radius: 32rpx;
+  box-shadow: 0rpx 0rpx 24rpx 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
