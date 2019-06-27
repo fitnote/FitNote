@@ -18,8 +18,10 @@
  -->
 
 <view class="container-full-screen">
+<view class="title">抛瓦</view>
   <scroll-view scroll-y class="scroll-container">
     <!-- <view class="fit-item-list"> -->
+    
     <image class="main-view" src="{{head}}">head</image>
     <view class="other-view">
       <view class="fit-item">
@@ -89,6 +91,20 @@
     <!-- </view> -->
   </scroll-view>
 
-  <view bindtap='goNext' class="navigate_test_go">抛瓦!</view>
+  <!-- <view bindtap='goNext' class="navigate_test_go">抛瓦!</view> -->
+  <view class='navigate_bar'>
+    <view class='navigate_to_index current'>
+      <image src='https://img.icons8.com/color/48/000000/overview-pages-4.png'></image>
+      <text>首页</text>
+    </view>
+    <view class='navigate_to_power' bindtap='goNext'>
+      <image src='https://img.icons8.com/color/48/000000/skateboard-truck.png'></image>
+      <text>抛瓦!</text>
+    </view>
+    <view class='navigate_to_users' bindtap='goMe'>
+      <image src='https://img.icons8.com/color/48/000000/jake.png'></image>
+      <text>我</text>
+    </view>
+  </view>
   <!-- <view class="navigate_test_back">Back!</view> -->
 </view>
