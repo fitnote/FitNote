@@ -1,0 +1,18 @@
+<!--pages/power/power.wxml-->
+<view class="container-full-screen">
+  <div class="title">选择训练</div>
+  <scroll-view scroll-y class="scroll-container">
+    <view bindtap="goFitItem" class="fit-item-list">
+      <view wx:for="{{fit_item}}" wx:key="{{index}}" id="{{index}}" class="fit-item">
+        <image class="fit-item-icon" id="{{index}}" src="{{item.item_icon}}"></image>
+        <text class="fit-item-text" id="{{index}}">{{item.item_name}}</text>
+      </view>
+    </view>
+  </scroll-view>
+  <!-- <view bindtap="goNext" bindlongpress="goBack" class="navigate_test_go">Go!</view> -->
+  <view class="confirm_bar ">
+    <!-- <view class="yes " bindtap="finish">完成</view> -->
+    <view class="cancel " bindtap="abandon">放弃</view>
+  </view>
+  <!-- <view bindtap="goBack" class="navigate_test_back">Back!</view> -->
+</view>

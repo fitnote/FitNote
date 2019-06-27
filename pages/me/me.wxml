@@ -1,0 +1,59 @@
+<!--pages/me/me.wxml-->
+<view class="container-full-screen">
+  <view class="title">我</view>
+  <!-- <scroll-view scroll-y class="scroll-container"> -->
+  <view class='user-info'>
+    <image src='https://img.icons8.com/flat_round/64/000000/baby-footprints-path.png'></image>
+    <text>番禺第二肌肉男</text>
+  </view>
+
+  <view class='user-fit-info'>
+    <view class='user-fit-info-item'>
+      <view class='user-fit-info-item__text'>
+        <image src='https://img.icons8.com/color/50/000000/scissor-lift.png'></image>
+        <text>身高/cm</text>
+      </view>
+      <view class='user-fit-info-item__num'>178</view>
+    </view>
+
+    <view class='user-fit-info-item'>
+      <view class='user-fit-info-item__text'>
+        <image src='https://img.icons8.com/color/48/000000/industrial-scales.png'></image>
+        <text>体重/kg</text>
+      </view>
+      <view class='user-fit-info-item__num'>55</view>
+    </view>
+
+    <view class='user-fit-info-item'>
+      <view class='user-fit-info-item__text'>
+        <image src='https://img.icons8.com/cotton/64/000000/percentage.png'></image>
+        <text>体脂比/%</text>
+      </view>
+      <view class='user-fit-info-item__num'>9.6</view>
+    </view>
+
+    <view class='user-fit-info-item'>
+      <view class='user-fit-info-item__text'>
+        <image src='https://img.icons8.com/color/48/000000/man-drinking-water.png'></image>
+        <text>基础代谢率</text>
+      </view>
+      <view class='user-fit-info-item__num'>1344</view>
+    </view>
+  </view>
+  <!-- </scroll-view> -->
+
+  <view class='navigate_bar'>
+    <view class='navigate_to_index' bindtap='goIndex'>
+      <image src='https://img.icons8.com/color/48/000000/overview-pages-4.png'></image>
+      <text>首页</text>
+    </view>
+    <view class='navigate_to_power'>
+      <image src='https://img.icons8.com/color/48/000000/skateboard-truck.png'></image>
+      <text>抛瓦!</text>
+    </view>
+    <view class='navigate_to_users current'>
+      <image src='https://img.icons8.com/color/48/000000/jake.png'></image>
+      <text>我</text>
+    </view>
+  </view>
+</view>

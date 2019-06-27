@@ -1,0 +1,38 @@
+<!--pages/addCounter/addCounter.wxml-->
+<view class="container-full-screen">
+  <view class="title">第 {{counter_num}} 组</view>
+  <view class="times_view">
+    <view bindtap="sub_times" class="sub_view">
+      <image class="sub_view_icon" src="{{sub_icon}}"></image>
+    </view>
+    <view class="num_view">
+      <view class="num_view_circle">
+        <view class="num_view_num">{{times}}</view>
+        <view class="num_view_unit">次</view>
+      </view>
+    </view>
+    <view bindtap="add_times" class="add_view ">
+      <image class="add_view_icon" src="{{add_icon}}"></image>
+    </view>
+  </view>
+  <view class="heavy_view ">
+    <view bindtap="sub_heavy" class="sub_view ">
+      <image class="sub_view_icon" src="{{sub_icon}}"></image>
+    </view>
+    <view class="num_view">
+      <view class="num_view_circle">
+        <view class="num_view_num">{{heavy}}</view>
+        <view class="num_view_unit">kg</view>
+      </view>
+    </view>
+    <view bindtap="add_heavy" class="add_view ">
+      <image class="add_view_icon" src="{{add_icon}}"></image>
+    </view>
+  </view>
+  <view class="confirm_bar ">
+    <view class="yes" bindtap="finish">完成</view>
+    <view class="no" bindtap="abandon">放弃</view>
+  </view>
+
+  <!-- <view bindtap="goNext" bindlongpress="goBack" class="navigate_test_go">Go!</view> -->
+</view>

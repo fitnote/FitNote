@@ -1,0 +1,122 @@
+/* pages/me/me.wxss */
+
+.container-full-screen {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 48rpx;
+  padding-bottom: 16rpx;
+  font-size: 40pt;
+  line-height: 40pt;
+  padding-left: 5vw;
+  z-index: 999;
+}
+
+.title::before {
+  content: '';
+  position: absolute;
+  top: -32rpx;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: calc(40pt + 48rpx + 16rpx + 32rpx);
+  width: 100vw;
+  filter: blur(16rpx);
+  background: hsla(0, 0%, 100%, 1);
+  z-index: -1;
+}
+
+.scroll-container {
+  flex: 1;
+  display: flex;
+}
+
+.user-info {
+  margin-top: calc(40pt + 48rpx + 16rpx);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding-top: 16rpx;
+  padding-bottom: 16rpx;
+  padding-left: 18rpx;
+  padding-right: calc((58px + 18rpx) / 2);
+  border-radius: calc(58px + 18rpx);
+  margin-left: 18rpx;
+  margin-right: 18rpx;
+  margin-bottom: 18rpx;
+  box-shadow: 0rpx 0rpx 24rpx 0px rgba(0, 0, 0, 0.1);
+}
+
+.user-info image {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background-color: #fafafa;
+}
+
+.user-fit-info {
+  margin: 32rpx;
+  padding: 32rpx;
+  border-radius: 32rpx;
+  box-shadow: 0rpx 0rpx 24rpx 0px rgba(0, 0, 0, 0.1);
+}
+
+.user-fit-info-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.user-fit-info-item:first-child {
+  padding-top: 0px;
+}
+
+.user-fit-info-item:last-child {
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.user-fit-info-item__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.user-fit-info-item__text image {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.user-fit-info-item__text text {
+  font-size: 12pt;
+}
+
+.user-fit-info-item__num {
+  font-size: 14pt;
+  font-weight: bolder;
+  color: #8c8c8c;
+}
