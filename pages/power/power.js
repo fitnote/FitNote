@@ -118,8 +118,8 @@ Page({
   },
 
   abandon: function (event) {
-    wx.reLaunch({
-      url: '../index/index'
+    wx.navigateBack({
+      delta: 1
     })
   },
 

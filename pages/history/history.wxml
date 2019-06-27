@@ -1,0 +1,130 @@
+<!--pages/history/history.wxml-->
+<view class="container-full-screen">
+  <view class="title">胸</view>
+  <scroll-view scroll-y class="scroll-container">
+    <view class='history-list'>
+      <view class='history-item'>
+        <view class='main'>
+          <view class='sub-item'>
+            <view class='sub-item-name'>Squats</view>
+            <view class='sub-item-detail'>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x25kg</view>
+              <view class='sub-item-detail-item'>15x20kg</view>
+            </view>
+          </view>
+          <view class='sub-item'>
+            <view class='sub-item-name'>Pullups</view>
+            <view class='sub-item-detail'>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x25kg</view>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x25kg</view>
+            </view>
+          </view>
+        </view>
+        <view class='time'>刚刚</view>
+      </view>
+
+      <view class='history-item'>
+        <view class='main'>
+          <view class='sub-item'>
+            <view class='sub-item-name'>Pullups</view>
+            <view class='sub-item-detail'>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x25kg</view>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x15kg</view>
+            </view>
+          </view>
+          <view class='sub-item'>
+            <view class='sub-item-name'>Deadlift</view>
+            <view class='sub-item-detail'>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x25kg</view>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x25kg</view>
+            </view>
+          </view>
+          <view class='sub-item'>
+            <view class='sub-item-name'>Pullups</view>
+            <view class='sub-item-detail'>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x25kg</view>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>10x20kg</view>
+              <view class='sub-item-detail-item'>10x20kg</view>
+            </view>
+          </view>
+        </view>
+        <view class='time'>两天前</view>
+      </view>
+
+      <view class='history-item'>
+        <view class='main'>
+          <view class='sub-item'>
+            <view class='sub-item-name'>Pullups</view>
+            <view class='sub-item-detail'>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x25kg</view>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x15kg</view>
+            </view>
+          </view>
+          <view class='sub-item'>
+            <view class='sub-item-name'>Deadlift</view>
+            <view class='sub-item-detail'>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x25kg</view>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x25kg</view>
+            </view>
+          </view>
+          <view class='sub-item'>
+            <view class='sub-item-name'>Pullups</view>
+            <view class='sub-item-detail'>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x25kg</view>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>10x20kg</view>
+              <view class='sub-item-detail-item'>10x20kg</view>
+            </view>
+          </view>
+        </view>
+        <view class='time'>三天前</view>
+      </view>
+
+      <view class='history-item'>
+        <view class='main'>
+          <view class='sub-item'>
+            <view class='sub-item-name'>Squats</view>
+            <view class='sub-item-detail'>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x25kg</view>
+              <view class='sub-item-detail-item'>15x20kg</view>
+            </view>
+          </view>
+          <view class='sub-item'>
+            <view class='sub-item-name'>Pullups</view>
+            <view class='sub-item-detail'>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x25kg</view>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x20kg</view>
+              <view class='sub-item-detail-item'>15x25kg</view>
+            </view>
+          </view>
+        </view>
+        <view class='time'>五天前</view>
+      </view>
+    </view>
+  </scroll-view>
+
+  <view class="confirm_bar ">
+    <!-- <view class="yes " bindtap="finish">完成</view> -->
+    <view class="cancel " bindtap="abandon">返回</view>
+  </view>
+</view>

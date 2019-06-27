@@ -3,5 +3,5 @@
   "navigationBarBackgroundColor": "#fff",
   "navigationBarTitleText": "体验券详情",
   "navigationBarTextStyle": "black",
-  "enablePullDownRefresh": "true"
+  "enablePullDownRefresh": true
 }

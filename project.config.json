@@ -13,7 +13,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.6.4",
-	"appid": "wxee1239c912d5ecd6",
+	"appid": "wx36f94d96a5b13fc7",
 	"projectname": "FitNote",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -39,7 +39,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 5,
+			"current": 7,
 			"list": [
 				{
 					"id": -1,
@@ -81,6 +81,19 @@
 					"name": "个人",
 					"pathName": "pages/me/me",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "训练历史",
+					"pathName": "pages/history/history",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "推荐训练",
+					"pathName": "pages/recommend/recommend",
 					"scene": null
 				}
 			]

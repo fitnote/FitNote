@@ -94,7 +94,7 @@ Page({
     //   return;
     // }
 
-    let times = _this.data.times + 1;
+    let times = _this.data.times - 0 + 1;
 
     _this.setData({
       times: times
@@ -122,7 +122,7 @@ Page({
     //   return;
     // }
 
-    let heavy = _this.data.heavy + 1;
+    let heavy = _this.data.heavy - 0 + 1;
 
     _this.setData({
       heavy: heavy

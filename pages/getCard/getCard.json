@@ -3,5 +3,5 @@
   "navigationBarBackgroundColor": "#fff",
   "navigationBarTitleText": "运动领券",
   "navigationBarTextStyle": "black",
-  "enablePullDownRefresh": "true"
+  "enablePullDownRefresh": true
 }

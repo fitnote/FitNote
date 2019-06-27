@@ -68,5 +68,17 @@ Page({
     wx.reLaunch({
       url: '../index/index'
     })
+  },
+
+  goPower: function (event) {
+    wx.navigateTo({
+      url: '../power/power'
+    })
+  },
+
+  goRecommend: function (event) {
+    wx.navigateTo({
+      url: '../recommend/recommend'
+    })
   }
 })

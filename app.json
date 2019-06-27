@@ -5,7 +5,9 @@
     "pages/fit/fit",
     "pages/counter/counter",
     "pages/addCounter/addCounter",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/history/history",
+    "pages/recommend/recommend"
   ],
   "window": {
     "backgroundTextStyle": "light",
